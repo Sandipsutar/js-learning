@@ -1,0 +1,10 @@
+console.log("======Step 1=======");
+var Company="Oracle";
+console.log(`My Dream Company is : ${Company} `);
+
+console.log("======Step 2=======");
+
+var hobbi = "Playing football Riding car Listening Music";
+console.log(`My Hobbies:${hobbi}`);
+var len = hobbi.length;
+console.log(`Total number of characters is : ${hobbi.length}`);
