@@ -1,6 +1,6 @@
 
 
-// 1. Define a class for Vehicle
+console.log("======Step 1 =======");
 class Vehicle {
     constructor(make, model, year, color, mileage,price) {
         this.make = make;
@@ -16,6 +16,19 @@ class Vehicle {
         console.log(`Vehicle Details:  Name :${this.make} ,Model: ${this.model} , Year: (${this.year}), Color: ${this.color}, Mileage: ${this.mileage},Price : ${this.price}`);
     }
 }
+const Toyota= new Vehicle("Toyota", "Camry", 2020, "Silver", "30,000 km","46 lack");
+Toyota.logDetails();
+const Honda= new Vehicle("Honda", "Civic", 2018, "Black", "25,000 km","22.36 lack");
+Honda.logDetails();
+const Ford= new Vehicle("Ford", "F-150", 2019, "White", "40,000 km"," 1 cr");
+Ford.logDetails();
+const Chevrolet= new Vehicle("Chevrolet", "Malibu", 2017, "Blue", "35,000 km","65 lack");
+Chevrolet.logDetails();
+const Tesla= new Vehicle("Tesla", "Model S", 2021, "Red", "20,000 km","80 lack");
+Tesla.logDetails();
+
+
+
 
 
 // Create an array to hold objects of vehicles
@@ -28,19 +41,7 @@ arrayOfVehicles.push(new Vehicle("Ford", "F-150", 2019, "White", "40,000 km"," 1
 arrayOfVehicles.push(new Vehicle("Chevrolet", "Malibu", 2017, "Blue", "35,000 km","65 lack"));
 arrayOfVehicles.push(new Vehicle("Tesla", "Model S", 2021, "Red", "20,000 km","80 lack"));
 
-// console.log("\nDetails of vehicles:");
-// const vehicle1= arrayOfVehicles.push(new Vehicle("Toyota", "Camry", 2020, "Silver", "30,000 km","46 lack"));
-// const vehicle2=arrayOfVehicles.push(new Vehicle("Honda", "Civic", 2018, "Black", "25,000 km","22.36 lack"));
-// const vehicle3=arrayOfVehicles.push(new Vehicle("Ford", "F-150", 2019, "White", "40,000 km"," 1 cr"));
-// const vehicle4=arrayOfVehicles.push(new Vehicle("Chevrolet", "Malibu", 2017, "Blue", "35,000 km","65 lack"));
-// const vehicle5=arrayOfVehicles.push(new Vehicle("Tesla", "Model S", 2021, "Red", "20,000 km","80 lack"));
 
-// console.log("\nDetails of colleges:");
-// vehicle1.display();
-// vehicle2.display();
-// vehicle3.display();
-// vehicle4.display();
-// vehicle5.display();
 
 // Traverse the arrayOfVehicles and log the details of each vehicle
 console.log("======Traverse the array objects=======");
